@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+   font-size: 1.6 rem;
+}
+
+a {
+  text-decoration : none; 
+}
+
+.main-content {
+  width: 1800px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .body {
+  margin-top: 20px;
+  display: flex;
+}
+
+.nav {
+  margin-left: 500px;
+  margin-right: auto;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav a {
+  color: #000;
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  font-style: normal;
+  padding: 8px 14.5px;
+}
+
+.nav a:hover {
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.logo-container {
+  display: flex;
+  align-items: right;
+  gap: 10px;
+}
+
+.samsung-logo {
+  order: 1;
+}
+
+.university-logo {
+  order: 2;
+}
+
+
+.hero{
+  padding: 135px;
+}
+
+.hero h1{
+  text-align: center;
+  font-family: "ADLaM Display";
+  font-size: 55px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero h2 {
+  text-align: center;
+  color: #000;
+  font-family: "ADLaM Display";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.hero p {
+  color: #000;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 165% */
+  letter-spacing: 0.72px;
+}
+
+.hero .startbtn {
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+
+
+.btn {
+  display: inline-flex;
+  height: auto; /* Allow the button height to adjust naturally */
+  padding: 10px 32px; /* Adjust padding for a more typical button size */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 2px solid #FF3BFF;
+  background: #FFF;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.hero a {
+  color: #000;
+  text-align: center;
+  font-family: Taviraj;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.random-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.random-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tài Khoản Cá Nhân</title>
+</head>
+<body>
+    <h2>Chào mừng, {{ user_email }}</h2>
+    <p>Đây là trang tài khoản cá nhân của bạn.</p>
+    <a href="{{ url_for('logout') }}">Đăng xuất</a>
+    <form action="/account" method="post">
+        <button type="submit" name="ChooseTopic" value="activated1">Submit</button>
+    </form>
+</body>
+</html>
