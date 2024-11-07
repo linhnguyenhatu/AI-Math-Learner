@@ -1,0 +1,7 @@
+flask
+pandas
+os
+time
+torch
+numpy
+-U sklearn
