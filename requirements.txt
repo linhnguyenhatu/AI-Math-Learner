@@ -4,4 +4,4 @@ os
 time
 torch
 numpy
--U scikit-learn
+scikit-learn
